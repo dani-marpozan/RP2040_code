@@ -150,7 +150,7 @@ int main() {
     while (1){
         float temp=TMP1075_readTemp();
         afisareNumar((int) temp);
-        sleep_ms(1000);
+        sleep_ms(1500);
     }
     return 0;
 }
